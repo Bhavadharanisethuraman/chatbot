@@ -7,6 +7,8 @@ import numpy as np
 from datetime import datetime
 from dotenv import load_dotenv
 
+load_dotenv()
+
 class FinancialChatbot:
     def __init__(self):
         # Initialize OpenAI API (replace with your actual API key securely from environment variables)
